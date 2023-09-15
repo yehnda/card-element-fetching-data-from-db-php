@@ -1,0 +1,31 @@
+.card {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.verify-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.verification {
+    display: none;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
